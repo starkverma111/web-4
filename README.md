@@ -1,4 +1,4 @@
-# Nature Love
+# Blog Template
 
 > Bootstrap 5.3 / Blog Template
 
