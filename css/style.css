@@ -1,0 +1,232 @@
+      body {
+        background: #f9fafc;
+      }
+/* text formatting css */
+      h1,
+      h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: #222222;
+        font-style: normal;
+        font-size: 27px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+      }
+	 h3,h4 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        color: #222222;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+      } 
+
+p {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0;
+        color: #7b7b7b;
+      }
+	  
+	  
+	  
+	  
+	  
+	  
+/* navbar css */
+   
+  .navbar {
+  font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+	 
+	 .nav-link {
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 0.9px;
+      }
+      .nav-link:hover {
+        color: #7163cf;
+      }
+	  
+      .navbar-toggler:focus {
+        outline: none !important;
+        box-shadow: none;
+      }
+
+ .form-control:focus {
+        border-color: #7e8287bf;
+        box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(132 134 137 / 48%);
+      }
+	  
+btn:focus,a:focus {
+        outline: none;
+      }	  
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+
+/* section 1 unique design */
+      .s1 {
+        height: 945px;
+        background: url(../images/pic1.jpg);
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+	  
+
+ /* section 3 border & button */
+      .borderr {
+        border-bottom-color: rgba(113, 99, 207, 0.25);
+      }
+ 
+      .btn {
+        width: 100%;
+        height: 34px;
+        background-color: #7163cf;
+        font-family: inherit;
+        font-size: 12px;
+        color: #fff;
+        line-height: 34px;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-sizing: border-box;
+        padding: 0 10px;
+        margin: 0;
+        border: 0;
+        border-radius: 3px;
+        transition: background .17s ease;
+      }
+
+      .btn:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      
+
+
+/* section 4 Hobbies */
+
+      .img-fluid {
+        width: 100%;
+        height: 260px;
+        overflow: hidden;
+        margin: 0 0 30px;
+        object-fit: cover;
+        -webkit-filter: brightness(60%);
+      }
+
+      img:hover {
+        -webkit-filter: brightness(100%);
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+
+/* section 5 blogs */
+     .btnl {
+        height: 34px;
+        background-color: #5b5b5b;
+        font-family: inherit;
+        font-size: 12px;
+        color: #fff;
+        line-height: 34px;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-sizing: border-box;
+        padding: 0 10px;
+        margin: 0;
+        border: 0;
+        border-radius: 3px;
+        transition: background .17s ease;
+      }
+
+      .btnl:hover {
+        background-color: #7163cf;
+      }
+
+
+/* section 6 Map card css */
+      .map-me #map iframe {
+        width: 100%;
+        height: 378px;
+      }
+
+/* Social icons css */
+      .social {
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+		margin: 2px 10px 2px 0px;
+		border: 1px solid #000;
+
+      }
+	  
+	  .social:hover {
+		color: #fff;		
+		background-color: #7163cf;
+		border-color: #7163cf;
+      }
+	  
+/* footer area css */  
+      .copyright-area {
+        font-size: 13px;
+        line-height: 30px;
+      }	  
+a {
+     color: #ff00ba;
+   }  
+.back-top {
+    display: none;
+    z-index: 1010;
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #7163cf;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 3px;
+	animation: fadeIn 0.6s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.3);
+
+}
